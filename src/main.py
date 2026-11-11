@@ -38,4 +38,4 @@ def main():
         except ValueError:
             print("Please enter an integer value")
         
-        # Call box function with the user input
+        print_box(width, height)

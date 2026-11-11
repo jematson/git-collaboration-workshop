@@ -20,4 +20,8 @@ Follow the instruction in the README as you go.
 
 ## Step 5:
 
-- [ ] Create a Pull Request for the branch `feature/merge-4` and merge it into `main`. You guessed it, more merge conflicts.
+- [x] Create a Pull Request for the branch `feature/merge-4` and merge it into `main`. You guessed it, more merge conflicts.
+
+## Well Done!
+
+Now test your code with the test programs to make sure it works. Then you can proceed with the rest of the workshop.

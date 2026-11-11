@@ -16,4 +16,4 @@ Follow the instruction in the README as you go.
 
 ## Step 4:
 
-- [ ] Create a Pull Request for the branch `feature/merge-2` and merge it into `main`. Look out for more merge conflicts!
+- [ ] Create a Pull Request for the branch `feature/merge-3` and merge it into `main`. Look out for more merge conflicts!

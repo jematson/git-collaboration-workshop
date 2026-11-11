@@ -1,10 +1,41 @@
 # TODO: Write a program that prints a box
 
 
-# TODO: write function is_edge to check if a point is on the edge of the box
+def is_edge(i, j, dims):
+    if i == 0 or j == 0:
+        return True
+
+    if i == dims[0] - 1 or j == dims[1] - 1:
+        return True
+
+    return False
 
 
-# TODO: write function print_box to print a box with given dimensions
+def print_box(width, height):
+    out = ""
+    for y in range(height):
+        for x in range(width):
+            if is_edge(x, y, (width, height)):
+                out += "*"
+            else:
+                out += " "
+
+        out += "\n"
+
+    print(out, end="")
 
 
-# TODO: write main
+def main():
+    while True:
+        try:
+            width = int(input("Enter the width of the box (0 to exit):"))
+            if width == 0:
+                break
+            height = int(input("Enter the height of the box (0 to exit):"))
+            if height == 0:
+                break
+
+        except ValueError:
+            print("Please enter an integer value")
+        
+        print_box(width, height)

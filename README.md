@@ -7,4 +7,9 @@ Follow the instruction in the README as you go.
 ## Step 1: Fork the Repo
 
 ## Step 2:
-Create a Pull Request for the branch `feature/merge-1` and merge it into `main`.
+
+- [x] Create a Pull Request for the branch `feature/merge-1` and merge it into `main`.
+
+## Step 3:
+
+- [ ] Create a Pull Request for the branch `feature/merge-2` and merge it into `main`. You should see a merge conflict!

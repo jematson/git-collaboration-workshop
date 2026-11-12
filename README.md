@@ -8,4 +8,4 @@ Follow the instruction in the README as you go.
 
 ## Step 2:
 
-- [ ] Create a Pull Request for the branch `feature/merge-1` and merge it into `main`.
+Create pull requests and merge the branches one-by-one in order (feat/merge-1, feat/merge-2, etc.)

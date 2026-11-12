@@ -1,3 +1,4 @@
-# DELETE ME
+# A program to print boxes to the command line
 
-# TODO: main: print boxes with user input
+def main():
+    # Call print_box function

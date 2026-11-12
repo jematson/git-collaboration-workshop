@@ -1,4 +1,4 @@
-# A Descriptive Comment
+# A program to print boxes to the command line
 
 # TODO: function is_edge: check if point is on box edge
 
@@ -11,3 +11,6 @@ def is_edge(i, j, dims):
 def print_box(width, height):
 
     print()
+
+def main():
+    # Call print_box function

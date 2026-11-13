@@ -1,5 +1,8 @@
 # A program to print boxes to the command line
 
+# TODO: is_edge function: check if point is on box edge
+# TODO: print_box function: print box with given dimensions
+
 def main():
     while True:
         try:
